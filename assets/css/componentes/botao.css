@@ -1,0 +1,23 @@
+.botao {
+    background-color: var(--amarelo);
+
+    width: 100%;
+    text-align: center;
+    color: var(--branco );
+    font-family: inherit;
+    font-weight: bold;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    box-shadow: 10px 10px 30px #FFCB473D;
+
+}
+
+
+.botao--alternativo {
+    color: var(--amarelo);
+    background-color: unset;
+    box-shadow: none;
+    border: 1px solid var(--amarelo);
+}
