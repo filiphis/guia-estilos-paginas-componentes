@@ -3,15 +3,42 @@
 
 
 body {
-    font-family: var(--familia-corpo);
-    font-size: var(--tamanho-corpo);
 
     background: url(../../images/fundo-textura.png), url(../../images/fundo-linhas.png);
     background-position: center;
+    color: var(--cinza);
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
 }
 
 .container {
-    padding-right: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 
+.titulo {
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo-destaque {
+    color: var(--preto);
+
+    display: block;
+    font-family: var(--familia-titulo-destaque);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}
