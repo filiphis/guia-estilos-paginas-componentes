@@ -8,10 +8,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/base/base.css">
-    <link rel="stylesheet" href="./assets/css/componentes/cabecalho.css">
-
-    <link rel="stylesheet" href="./assets/css/componentes/rodape.css">
+    <link rel="stylesheet" href="/assets/css/base/base.css">
+    <link rel="stylesheet" href="/assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="/assets/css/componentes/input.css">
+    <link rel="stylesheet" href="/assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="/assets/css/componentes/rodape.css">
+    <link rel="stylesheet" href="/assets/css/componentes/heart.css">
 </head>
 
 <body>
@@ -23,7 +25,24 @@
             <img class="cabecalho__carrinho" src="assets/images/carrinho.svg" alt="Icone do carrinho de compras">
         </a>
     </header>
-    
+
+    <main>
+        <section class="container">
+            <h2 class="titulo">
+                Sua casa com as
+                <span class="titulo-destaque">melhores plantas</span>
+            </h2>
+            <p class="texto">Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa
+                mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da
+                marca</p>
+            <img src="/assets/images/planta-chamada.png" alt="Foto da planta">
+            <form action="">
+                <input placeholder="Insira seu email" aria-label="Insira seu email" type="email" class="input input--icone input--email">
+                <button class="botao">Assinar newsletter</button>
+            </form>
+        </section>
+    </main>
+
     <footer class="container rodape">
         <img src="assets/images/logo.svg" alt="Uma folha com um texto a direita escrito casa verde"
             class="rodape__logo">
@@ -52,6 +71,10 @@
             Telefone: (11) 99875-2201
         </address>
     </footer>
+
+    <div class="heart">
+        <span class="love">Te amo mozao</span>
+    </div>
 </body>
 
 </html>

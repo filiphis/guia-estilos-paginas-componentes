@@ -1,0 +1,40 @@
+.heart {
+    margin: 200px;
+    background-color: red;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+    margin-left: 82px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
+}
+.love {
+    z-index: 100;
+    color: white;
+    position: fixed;
+    font-size: 26px;
+    /* transform: rotateY(-3deg); */
+    /* transform: skewX(-41deg); */
+    transform: rotate3d(1, 0, 1, 68deg);
+    font-weight: bold;
+    left: 73px;
+    margin-left: 1px;
+    top: 56px;
+}
