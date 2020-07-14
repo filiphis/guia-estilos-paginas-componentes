@@ -12,8 +12,18 @@
     <link rel="stylesheet" href="./assets/css/componentes/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/componentes/input.css">
     <link rel="stylesheet" href="./assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="./assets/css/chamada.css">
+    <link rel="stylesheet" href="./assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="./assets/css/componentes/item.css">
+    <link rel="stylesheet" href="./assets/css/como-conseguir.css">
+    <link rel="stylesheet" href="./assets/css/componentes/produto.css">
+    <link rel="stylesheet" href="./assets/css/ofertas.css">
+    <link rel="stylesheet" href="./assets/css/componentes/video.css">
+
+
     <link rel="stylesheet" href="./assets/css/componentes/rodape.css">
-    <link rel="stylesheet" href="./assets/css/componentes/heart.css">
+
+
 </head>
 
 <body>
@@ -27,19 +37,137 @@
     </header>
 
     <main>
-        <section class="container">
+        <section class="container chamada">
             <h2 class="titulo">
                 Sua casa com as
                 <span class="titulo-destaque">melhores plantas</span>
             </h2>
-            <p class="texto">Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa
+            <p class="texto chamada__texto">Encontre aqui uma vasta seleção de plantas para decorar a sua casa e
+                torná-lo uma pessoa
                 mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da
                 marca</p>
-            <img src="/assets/images/planta-chamada.png" alt="Foto da planta">
-            <form action="">
-                <input placeholder="Insira seu email" aria-label="Insira seu email" type="email" class="input input--icone input--email">
+            <img class="chamada__imagem" src="./assets/images/planta-chamada.png" alt="Foto da planta">
+            <form action="" class="chamada__formulario">
+                <input placeholder="Insira seu email" aria-label="Insira seu email" type="email"
+                    class="input input--icone input--email">
                 <button class="botao">Assinar newsletter</button>
             </form>
+        </section>
+
+        <section class="container como-conseguir">
+            <article class="cartao">
+                <h2 class="titulo alinhamento--meio">Como conseguir <span class="titulo-destaque">minha planta</span>
+                </h2>
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item__icone item__icone--cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--cart"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--truck"></span>
+                        <p>Aguarade na sua casa</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container ofertas">
+            <h2 class="titulo alinhamento--meio">
+                Conheça nossos
+                <span class="titulo-destaque">produtos</span>
+            </h2>
+            <ul>
+                <li class="produto">
+                    <img src="assets/images/produtos/planta-ajuga-reptans.png" alt="Planta tal" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">Ajuga<br>reptans
+                            <!-- <span class="titulo-destaque">reptans</span> -->
+                        </h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/images/produtos/planta-cordyline-fruticosa.png" alt="Planta tal"
+                        class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">Cordyline<br>fruticosa</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/images/produtos/planta-crassula-ovata.png" alt="Planta tal"
+                        class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">Crassula<br>ovata</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/images/produtos/planta-cyperus-rotundus.png" alt="Planta tal"
+                        class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">Cyperus<br>rotundus</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/images/produtos/planta-delairea-odorata.png" alt="Planta tal"
+                        class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">Delaire<br>odorata</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+                <li class="produto">
+                    <img src="assets/images/produtos/planta-datura-metel.png" alt="Planta tal" class="produto__imagem">
+                    <div class="produto__conteudo">
+                        <h3 class="produto__titulo titulo-destaque">Datura<br>metel</h3>
+                        <p class="produto__preco">R$ 20,00</p>
+                        <a href="" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="container">
+            <h2 class="titulo alinhamento--meio">
+                Veja aqui nossos  
+                <span class="titulo-destaque">videos</span>
+            </h2>
+            <!-- Gera o ul>li abaixo
+                ul>li*4.cartao-de-video.container>(div.cartao-de-video__video>img[src="https://picsum.photos/278/252" alt="Capa do video"])+h3.cartao-de-video__titulo{Vídeo XYZ}+p{Publicado em março de 2019}  
+            -->
+            <ul>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do video"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em março de 2019</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do video"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em março de 2019</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do video"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em março de 2019</p>
+                </li>
+                <li class="cartao-de-video container">
+                    <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Capa do video"></div>
+                    <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                    <p>Publicado em março de 2019</p>
+                </li>
+            </ul> 
         </section>
     </main>
 
@@ -72,9 +200,6 @@
         </address>
     </footer>
 
-    <div class="heart">
-        <span class="love">Te amo mozao</span>
-    </div>
 </body>
 
 </html>
